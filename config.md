@@ -15,9 +15,9 @@ xrandr --dpi 150		# Set DPI. User may want to use a larger number for larger scr
 ## Change default browser
 
 lvim ~/.local/src/dwm/config.h
--
+
 **edit =>**
--
+
 #define BROWSER "my_browser"
 
 **save and exit**
