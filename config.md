@@ -3,9 +3,12 @@
 ## Software
 - Vim
 - lvim
+- hexchat
 - python 
-
-
+- tailscale ->
+git clone --depth=1 'https://github.com/void-linux/void-packages'
+cp -R void-packages/srcpkgs/tailscale/files/tailscaled /etc/runit/sv
+ln -s /etc/runit/sv/tailscaled /run/runit/service
 
 ## Change DPI for 4K screen
 
@@ -25,4 +28,9 @@ lvim ~/.local/src/dwm/config.h
 sudo make install
 
 **reboot**
+
+## Join hexachat
+
+/join #TheLounge
+
 
